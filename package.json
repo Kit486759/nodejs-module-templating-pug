@@ -1,5 +1,5 @@
 {
-  "name": "assignment-2-expressjs",
+  "name": "section6",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -18,5 +18,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kit486759/nodejs-module-templating-pug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kit486759/nodejs-module-templating-pug/issues"
+  },
+  "homepage": "https://github.com/Kit486759/nodejs-module-templating-pug#readme"
 }
