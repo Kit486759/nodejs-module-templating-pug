@@ -1,0 +1,37 @@
+extends layouts/main-layout.pug
+
+block content
+    main
+        h1 Products
+
+        if prods.length > 0
+            div
+                ul
+                each product in prods
+                    li
+                        p #{product.title}
+        else 
+            h2 There are no products
+
+
+//-=========== replaced by extends and block
+
+//- doctype html
+//- html(lang="en")
+//-     head
+//-         meta(charset="UTF-8")
+//-         meta(http-equiv="X-UA-Compatible" content="IE=edge")
+//-         meta(name="viewport" content="width=device-width, initial-scale=1.0")
+//-         title #{docTitle}
+//-         link(rel="stylesheet" href="/index.css")
+//-     body 
+//-     header
+//-     nav
+//-     ul
+//-     li
+//-     a(href="/") Shop
+//-     li
+//-     a(href="/admin/add-product") Add product
+
+
+

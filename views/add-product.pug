@@ -1,0 +1,34 @@
+extends layouts/main-layout.pug
+
+block content
+        main 
+            form(action="/admin/product" method="POST") 
+                input(type="text" name="title")
+                button(type="submit") Add product
+
+
+//-=========== replaced by extends and block
+
+//- doctype html
+//- html(lang="en")
+//-     head
+//-         meta(charset="UTF-8")
+//-         meta(http-equiv="X-UA-Compatible" content="IE=edge")
+//-         meta(name="viewport" content="width=device-width, initial-scale=1.0")
+//-         title #{docTitle}
+//-         link(rel="stylesheet", href="/add.css")
+//-     body 
+//-         header
+//-             nav
+//-                 ul 
+//-                     li 
+//-                         a(href="/") Shop
+//-                     li 
+//-                         a(href="/admin/add-product") Add product
+
+//-         main 
+//-             form(action="/admin/product" method="POST") 
+//-                 input(type="text" name="title")
+//-                 button(type="submit") Add product
+
+
